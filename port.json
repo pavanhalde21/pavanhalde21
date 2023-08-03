@@ -1,0 +1,24 @@
+[
+  {"header": "false"},
+  {"inferSchema": "true"},
+
+  {"column_list": [
+                    {
+                      "airport_id": "integer",
+                      "name": "string",
+                      "city": "string",
+                      "country": "string",
+                      "iata": "string",
+                      "icao": "string",
+                      "latitude": "decimal",
+                      "longitude": "decimal",
+                      "altitude": "decimal",
+                      "timezone": "string",
+                      "dst": "string",
+                      "time_zone": "string",
+                      "type": "string",
+                      "source": "string"
+                    }
+                  ]
+  }
+]
