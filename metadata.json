@@ -1,0 +1,25 @@
+[
+  {
+    "port": {
+            "value_mapping": {
+                              "dst": {
+                                      "E": "Europe",
+                                      "A": "US/Canada",
+                                      "S": "South America",
+                                      "O": "Australia",
+                                      "Z": "New Zealand",
+                                      "N": "Unknown",
+                                      "U": "Unknown"
+                                      }
+                              }
+            },
+
+    "plane": {
+              "nullcheck": ["name", "iata_code"],
+              "datatypecheck": [],
+              "special_character": ["iata_code","icao_code"]
+              }
+  }
+
+]
+
