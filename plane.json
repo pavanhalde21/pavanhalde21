@@ -1,0 +1,11 @@
+[
+  {"header": "true"},
+  {"inferSchema": "true"},
+
+  {"column_list": [
+                    {"name": "string",
+                    "iata_code": "string",
+                    "icao_code": "string"}
+                  ]
+  }
+]
